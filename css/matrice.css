@@ -1,0 +1,32 @@
+.conteneur{
+    display: grid;
+    grid-template-columns: repeat(5, 66px);
+    grid-template-rows: repeat(5, 66px);
+    grid-gap: 40px;
+    border-style: none;
+}
+
+div{
+  border: 1px solid black;
+}
+.carre{
+
+}
+
+.rond{
+
+  border-radius: 50%;
+}
+
+.losange{
+    transform: rotate(45deg);
+
+}
+
+.vide{
+  background-color: white;
+}
+
+.plein{
+  background-color: red;
+}
